@@ -83,4 +83,3 @@ theme_config:
 deploy:
   type: git
   repo: git@github.com:fullrec/fullrec.github.io.git
-  branch: master
