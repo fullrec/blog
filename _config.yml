@@ -40,7 +40,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false #true
   auto_detect: false
   tab_replace:
   
@@ -72,12 +72,23 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
+## Themes: https://hexo.io/themes/archives: /archives/ || archive
 theme: next
 
 theme_config:
+  menu: 
+    home: / || home
+    archives: /archives/ || archive
+    #about: /about/ || user
+    categories: /categories/ || th
+    tags: /tags/ || tags
+    常用: /常用工具网址/
   scheme: Gemini
-  
+  avatar: 
+    url: /images/avatar.jpg
+  codeblock:
+    highlight_theme: 'night bright' #'night eighties'
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
