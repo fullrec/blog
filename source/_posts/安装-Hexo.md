@@ -1,7 +1,5 @@
 ---
 title: 安装 Hexo
-categories: 
-- hexo
 tags:
 - hexo
 ---

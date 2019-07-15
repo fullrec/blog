@@ -80,14 +80,14 @@ theme_config:
     home: / || home
     archives: /archives/ || archive
     #about: /about/ || user
-    categories: /categories/ || th
+    #categories: /categories/ || th
     tags: /tags/ || tags
     常用: /常用工具网址/
   scheme: Gemini
   avatar: 
-    url: /images/avatar.jpg
+    url: https://s.gravatar.com/avatar/7a3b245bb5dce1aab490f8dd4a321bf2?s=460 #https://avatars3.githubusercontent.com/u/478218?s=460&v=4 # /images/avatar.jpg
   codeblock:
-    highlight_theme: 'night bright' #'night eighties'
+    highlight_theme: 'night' # 'night bright' 'night eighties'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

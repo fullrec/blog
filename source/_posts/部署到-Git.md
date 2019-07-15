@@ -1,8 +1,6 @@
 ---
 title: 部署到 Git
 date: 2019-07-14 04:23:27
-categories:
-- blog
 tags:
 - hexo
 ---
