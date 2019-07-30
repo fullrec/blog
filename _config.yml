@@ -43,7 +43,7 @@ highlight:
   line_number: false #true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -52,7 +52,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -76,16 +76,16 @@ pagination_dir: page
 theme: next
 
 theme_config:
-  menu: 
+  menu:
     home: / || home
     archives: /archives/ || archive
     #about: /about/ || user
-    #categories: /categories/ || th
+    categories: /categories/ || th
     tags: /tags/ || tags
     常用: /常用工具网址/
   scheme: Gemini
-  avatar: 
-    url: https://s.gravatar.com/avatar/7a3b245bb5dce1aab490f8dd4a321bf2?s=460 #https://avatars3.githubusercontent.com/u/478218?s=460&v=4 # /images/avatar.jpg
+  avatar:
+    url: https://s.gravatar.com/avatar/7a3b245bb5dce1aab490f8dd4a321bf2?s=96 #https://avatars3.githubusercontent.com/u/478218?s=460&v=4 # /images/avatar.jpg
   codeblock:
     highlight_theme: 'night' # 'night bright' 'night eighties'
 

@@ -1,7 +1,9 @@
 ---
 title: 安装 Hexo
+categories:
+  - blog
 tags:
-- hexo
+  - hexo
 ---
 
 [Hexo 官网](https://hexo.io/zh-cn/)
@@ -25,13 +27,13 @@ $ hexo server
 
 #### 创建分类页
 
-``` bash
+```bash
 $ hexo new page categoties
 ```
 
 修改 source/categories/index.md
 
-``` bash
+```bash
 ---
 title: 分类
 type: "categories"
@@ -40,13 +42,13 @@ type: "categories"
 
 #### 创建标签页
 
-``` bash
+```bash
 $ hexo new page tags
 ```
 
 修改 source/tags/index.md
 
-``` bash
+```bash
 ---
 title: 标签
 type: "tags"
@@ -55,13 +57,13 @@ type: "tags"
 
 #### 创建关于页
 
-``` bash
+```bash
 $ hexo new page about
 ```
 
 #### 新建一篇文章
 
-``` bash
+```bash
 $ hexo new "My New Post"
 ```
 
@@ -69,7 +71,7 @@ More info: [Writing](https://hexo.io/zh-cn/docs/writing)
 
 #### 运行本地服务
 
-``` bash
+```bash
 $ hexo clean && hexo s
 ```
 
@@ -77,7 +79,7 @@ More info: [Server](https://hexo.io/zh-cn/docs/server.html)
 
 #### 部署到远程
 
-``` bash
+```bash
 $ hexo clean && hexo d
 ```
 
